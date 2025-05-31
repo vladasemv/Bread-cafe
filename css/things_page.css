@@ -1,0 +1,266 @@
+body{
+    font-family: sans-serif;
+    background-color: #FFF8F0;
+}
+
+nav{
+    background-color: #F5E9DA;
+    width: 100%;
+    height: 110px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.logo{
+    margin-top: 15px;
+    margin-left: 45px;
+    
+}
+
+nav a{
+    text-decoration: none;
+    font-size: 24px;
+    color: #A58B71;
+    margin-top: 40px;
+    margin-left: 25px;
+}
+
+.form-control{
+    border: 3px solid #FFF8F0;
+    border-radius: 10px;
+    width: 310px;
+    height: 50px;
+    margin-left: 110px;
+    margin-top: 30px;
+    color: #A58B71;
+    font-size: 18px;
+    padding-top: 15px;
+    padding-left: 10px;
+
+}
+
+.btn-search{
+    background-color: #FFF8F0;
+    width: 115px;
+    height: 45px;
+    border-radius: 25px;
+    color: #A58B71;
+    font-size: 22px;
+    border: 1px solid #FFF8F0;
+    margin-top: 5px;
+    margin-left: 15px;
+}
+
+.corb_button{
+    background-color: #926239;
+    width: 135px;
+    height: 45px;
+    border-radius: 25px;
+    color: #FFFFFF;
+    font-size: 23px;
+    padding-bottom: 10px;
+    margin-top: 38px;
+    margin-left: 160px;
+    border: 3px solid #6B492B;
+    padding-top: 7px;
+    padding-right: 12px;
+}
+
+.corb_button img{
+    width: 25px;
+    position: relative;
+    bottom: 27px;
+    left: 38px;
+}
+
+.cart-counter{
+    font-size: 21px;
+    background-color: #FFFFFF;
+    border: 3px solid #CFCFCF;
+    height: 30px;
+    width: 20px;
+    position: relative;
+    border-radius: 25px;
+    padding-left: 7px;
+    padding-top: 5px;
+    color: #926239;
+    right: 17px;
+    bottom: 20px;
+    left: 30px;
+    padding-right: 7px;
+    padding-bottom: 2px;
+}
+
+.btn-bye{
+    background-color: #926239;
+    width: 130px;
+    height: 45px;
+    border-radius: 25px;
+    color: #FFFFFF;
+    font-size: 23px;
+    border: 3px solid #6B492B;
+    position: relative;
+    bottom: 45px;
+    padding-top: 7px;
+    padding-right: 30px;
+    left: 20px;
+}
+
+.btn-bye img{
+    position: relative;
+    bottom: 25px;
+    left: 50px;
+}
+
+.btn-bye2{
+    background-color: #926239;
+    width: 130px;
+    height: 45px;
+    border-radius: 25px;
+    color: #FFFFFF;
+    font-size: 23px;
+    border: 3px solid #6B492B;
+    position: relative;
+    bottom: 27px;
+    padding-top: 7px;
+    padding-right: 30px;
+    left: 20px;
+}
+
+.btn-bye2 img{
+    position: relative;
+    bottom: 25px;
+    left: 50px;
+}
+
+.card{
+    background-color: #F5E9DA;
+    width: 311px;
+    height: 411px;
+    border-radius: 20px;
+    margin-top: 55px;
+}
+
+.card-img{
+    width: 180px;
+    padding-top: 25px;
+    padding-left: 50px;
+}
+
+.card-img2{
+    width: 210px;
+    padding-top: 25px;
+    padding-left: 50px;
+}
+
+.card-img3{
+    
+}
+
+.card-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.bread_name1{
+    text-align: center;
+    font-size: 45px;
+    color: #A58B71;
+    position: relative;
+    top: 20px;
+}
+
+.bread_name2{
+    text-align: center;
+    font-size: 30px;
+    color: #A58B71;
+}
+
+.name{
+    color: #A58B71;
+    font-size: 27px;
+    position: relative;
+    left: 27px;
+    bottom: 10px;
+}
+
+.name2{
+    color: #A58B71;
+    font-size: 27px;
+    position: relative;
+    left: 27px;
+    top: 10px;
+}
+
+.describtion{
+    color: #A58B71;
+    font-size: 17px;
+    position: relative;
+    left: 25px;
+    bottom: 25px;
+}
+
+.describtion2{
+    color: #A58B71;
+    font-size: 17px;
+    position: relative;
+    left: 25px;
+    bottom: 5px;
+}
+
+.price{
+    color: #CBAE92;
+    font-size: 23px;
+    position: relative;
+    left: 25px;
+    bottom: 40px;
+}
+
+.price2{
+    color: #CBAE92;
+    font-size: 23px;
+    position: relative;
+    left: 25px;
+    bottom: 20px;
+}
+
+.sourtige_name{
+    text-align: center;
+    font-size: 45px;
+    color: #A58B71;
+    position: relative;
+    top: 100px;
+}
+
+.sourtige_name2{
+    text-align: center;
+    font-size: 30px;
+    color: #A58B71;
+    position: relative;
+    top: 80px;
+}
+
+.sourtige{
+    margin-top: 140px;
+}
+
+.acssesorise{
+    text-align: center;
+    font-size: 45px;
+    color: #A58B71;
+    position: relative;
+    top: 100px;
+}
+
+.acssesorise2{
+    text-align: center;
+    font-size: 30px;
+    color: #A58B71;
+    position: relative;
+    top: 80px;
+}
+
+.id{
+    display:none;
+}
+
