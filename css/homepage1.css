@@ -3,93 +3,6 @@ body{
     background-color: #FFF8F0;
 }
 
-nav{
-    background-color: #F5E9DA;
-    width: 100%;
-    height: 110px;
-    display: flex;
-    justify-content: flex-start;
-}
-
-.logo{
-    margin-top: 15px;
-    margin-left: 45px;
-    
-}
-
-nav a{
-    text-decoration: none;
-    font-size: 24px;
-    color: #A58B71;
-    margin-top: 40px;
-    margin-left: 25px;
-}
-
-.form-control{
-    border: 3px solid #FFF8F0;
-    border-radius: 10px;
-    width: 310px;
-    height: 50px;
-    margin-left: 110px;
-    margin-top: 30px;
-    color: #A58B71;
-    font-size: 18px;
-    padding-top: 15px;
-    padding-left: 10px;
-
-}
-
-.btn-search{
-    background-color: #FFF8F0;
-    width: 115px;
-    height: 45px;
-    border-radius: 25px;
-    color: #A58B71;
-    font-size: 22px;
-    border: 1px solid #FFF8F0;
-    margin-top: 5px;
-    margin-left: 15px;
-}
-
-.corb_button{
-    background-color: #926239;
-    width: 135px;
-    height: 45px;
-    border-radius: 25px;
-    color: #FFFFFF;
-    font-size: 23px;
-    padding-bottom: 10px;
-    margin-top: 38px;
-    margin-left: 160px;
-    border: 3px solid #6B492B;
-    padding-top: 7px;
-    padding-right: 12px;
-}
-
-.corb_button img{
-    width: 25px;
-    position: relative;
-    bottom: 27px;
-    left: 38px;
-}
-
-.cart-counter{
-    font-size: 21px;
-    background-color: #FFFFFF;
-    border: 3px solid #CFCFCF;
-    height: 30px;
-    width: 20px;
-    position: relative;
-    border-radius: 25px;
-    padding-left: 7px;
-    padding-top: 5px;
-    color: #926239;
-    right: 17px;
-    bottom: 20px;
-    left: 30px;
-    padding-right: 7px;
-    padding-bottom: 2px;
-}
 
 .picture_home{
     width: 100%;
@@ -311,30 +224,24 @@ nav a{
 .name_surname1{
     color: #A58B71;
     font-size: 23px;
-    position: relative;
-    left: 15px;
+   
 }
 
 .stars1{
-    position: relative;
-    bottom: 15px;
-    left: 15px;
+  
 }
 
 .meinung1{
     color: #CBAE92;
     font-size: 20px;
-    position: relative;
-    left: 15px;
-    bottom: 22px;
+   
 }
 
 .new_name{
     font-size: 30px;
     color: #A58B71;
     text-align: center;
-    position: relative;
-    bottom: 200px;
+   
 }
 
 .new_meinung{
@@ -344,136 +251,17 @@ nav a{
     height: 196px;
     border-radius: 10px;
     box-shadow: 6px 6px 4px 0px rgb(182, 182, 182);
-    position: relative;
-    bottom: 150px;
-    left: 540px;
+  
 }
 
 .new_name_surnam{
     color: #A58B71;
     font-size: 23px;
-    position: relative;
-    left: 15px;
+    
 }
 
 .tell_about{
     color: #CBAE92;
     font-size: 20px;
-    position: relative;
-    left: 15px;
-    bottom: 22px;
-}
-
-footer{
-    background-color: #F5E9DA;
-    width: 100%;
-    height: 220px;
-    position: relative;
-    bottom: 30px;
-}
-
-.logo_footer{
-    position: relative;
-    top: 60px;
-    left: 20px;
-    margin-left: 30px;
-}
-
-.open_time_name{
-    color: #A58B71;
-    font-size: 22px;
-    position: relative;
-    bottom: 65px;
-    left: 350px;
-}
-
-.weekdays{
-    color: #CBAE92;
-    font-size: 19px;
-    position: relative;
-    left: 345px;
-    bottom: 65px;
-}
-
-.weekends{
-    color: #CBAE92;
-    font-size: 19px;
-    position: relative;
-    left: 345px;
-    bottom: 75px;
-}
-
-.holiday_days{
-    color: #CBAE92;
-    font-size: 19px;
-    position: relative;
-    left: 280px;
-    bottom: 85px;
-}
-
-.ours_bakerys_name{
-    color: #A58B71;
-    font-size: 22px;
-    position: relative;
-    bottom: 240px;
-    left: 725px;
-}
-
-.adress1{
-    color: #CBAE92;
-    font-size: 19px;
-    position: relative;
-    left: 670px;
-    bottom: 248px;
-}
-
-.adress2{
-    color: #CBAE92;
-    font-size: 19px;
-    position: relative;
-    left: 670px;
-    bottom: 265px;
-}
-
-.adress3{
-    color: #CBAE92;
-    font-size: 19px;
-    position: relative;
-    left: 670px;
-    bottom: 279px;
-}
-
-
-.location1{
-    width: 18px;
-}
-
-.location2{
-    width: 18px;
-}
-
-.location3{
-    width: 18px;
-}
-
-.ours_social_name{
-    color: #A58B71;
-    font-size: 22px;
-    position: relative;
-    bottom: 435px;
-    left: 1060px;
-}
-
-.facebook{
-    width: 40px;
-    position: relative;
-    left: 1090px;
-    bottom: 430px;
-}
-
-.instagram{
-    width: 40px;
-    position: relative;
-    left: 1095px;
-    bottom: 430px;
+   
 }
