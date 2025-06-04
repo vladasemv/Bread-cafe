@@ -10,117 +10,26 @@ main h1{
     text-align: center;
 }
 
-.name{
-    background-color: #F5E9DA;
-    width: 600px;
-    height: 50px;
-    border-radius: 20px;
-    position: relative;
-    left: 30px;
-    top: 110px;
-}
-
-.your_name{
-    color: #A58B71;
-    font-size: 30px;
-    position: relative;
-    bottom: 50px;
-}
-
-.write_your_name{
-    color: #CBAE92;
-    font-size: 20px;
-    position: relative;
-    bottom: 50px;
-    left: 15px;
-}
-
-.adress{
-    background-color: #F5E9DA;
-    width: 600px;
-    height: 50px;
-    border-radius: 20px;
-    position: relative;
-    left: 30px;
-    top: 170px;
-}
-
-.your_adress{
-    color: #A58B71;
-    font-size: 30px;
-    position: relative;
-    bottom: 50px;
-}
-
-.write_your_adress{
-    color: #CBAE92;
-    font-size: 20px;
-    position: relative;
-    bottom: 50px;
-    left: 15px;
-}
-
-.phone_number{
-    background-color: #F5E9DA;
-    width: 600px;
-    height: 50px;
-    border-radius: 20px;
-    position: relative;
-    left: 30px;
-    top: 230px;
-}
-
-.your_number{
-    color: #A58B71;
-    font-size: 30px;
-    position: relative;
-    bottom: 50px;
-}
-
-.write_your_number{
-    color: #CBAE92;
-    font-size: 20px;
-    position: relative;
-    bottom: 50px;
-    left: 15px;
-}
-
-.message{
-    background-color: #F5E9DA;
-    width: 600px;
-    height: 188px;
-    border-radius: 20px;
-    position: relative;
-    left: 30px;
-    top: 300px;
-}
-
-.your_message{
-    color: #A58B71;
-    font-size: 30px;
-    position: relative;
-    bottom: 50px;
-}
-
-.write_your_message{
-    color: #CBAE92;
-    font-size: 20px;
-    position: relative;
-    bottom: 50px;
-    left: 15px;
-}
-
-.order_bottom{
+.cart-btn{
     font-size: 30px;
     border: 4px solid #6B492B;
     border-radius: 30px;
     box-shadow: 7px 7px 4px 0px rgb(182, 182, 182);
     position: relative;
-    top: 400px;
     left: 25px;
+    top: 150px;
     padding: 10px;
     padding-left: 20px;
     padding-right: 20px;
     background-color: #926239;
     color: #FFFFFF;
+}
+
+.mt-3{
+    color: #A58B71;
+    font-size: 23px;
+    position: relative;
+    left: 30px;
+    top: 30px;
+    margin: 22px;
 }

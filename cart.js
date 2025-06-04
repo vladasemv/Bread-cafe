@@ -151,4 +151,3 @@ document.querySelectorAll("[data-action='plus']").forEach(btn => {
     totalPrice.innerText = totalSetPrice.toFixed(2);
   });
 });
-
