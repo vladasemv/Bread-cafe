@@ -20,7 +20,7 @@ body{
 .line{
     position: relative;
     font-size: 80px;
-    bottom: 530px;
+    bottom: 550px;
     left: 535px;
     color: #FFFFFF;
 
@@ -29,7 +29,7 @@ body{
 .text{
     font-size: 48px;
     position: relative;
-    bottom: 710px;
+    bottom: 760px;
     left: 640px;
     color: #FFFFFF;
 }
@@ -38,8 +38,48 @@ body{
     text-align: center;
     font-size: 40px;
     position: relative;
-    bottom: 580px;
+    bottom: 650px;
     color: #A58B71;
+}
+
+.about_text1{
+    color: #CBAE92;
+    font-size: 27px;
+    position: relative;
+    bottom: 625px;
+    left: 50px;
+}
+
+.about_text2{
+    color: #CBAE92;
+    font-size: 27px;
+    position: relative;
+    bottom: 630px;
+    left: 50px;
+}
+
+.about_text3{
+    color: #CBAE92;
+    font-size: 27px;
+    position: relative;
+    bottom: 635px;
+    left: 50px;
+}
+
+.about_text4{
+    color: #CBAE92;
+    font-size: 27px;
+    position: relative;
+    bottom: 640px;
+    left: 50px;
+}
+
+.about_text5{
+    color: #CBAE92;
+    font-size: 27px;
+    position: relative;
+    bottom: 650px;
+    left: 50px;
 }
 
 .liste{
@@ -47,19 +87,14 @@ body{
     font-size: 40px;
     color: #A58B71;
     position: relative;
-    bottom: 530px;
-}
-
-.liste a{
-    text-decoration: none;
-    color: #A58B71;
+    bottom: 560px;
 }
 
 .backery_things{
     display: flex;
     justify-content: space-around;
     position: relative;
-    bottom: 470px;
+    bottom: 490px;
 }
 
 .stiker1{
