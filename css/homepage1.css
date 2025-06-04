@@ -42,46 +42,6 @@ body{
     color: #A58B71;
 }
 
-.about_text1{
-    color: #CBAE92;
-    font-size: 27px;
-    position: relative;
-    bottom: 540px;
-    left: 50px;
-}
-
-.about_text2{
-    color: #CBAE92;
-    font-size: 27px;
-    position: relative;
-    bottom: 550px;
-    left: 50px;
-}
-
-.about_text3{
-    color: #CBAE92;
-    font-size: 27px;
-    position: relative;
-    bottom: 555px;
-    left: 50px;
-}
-
-.about_text4{
-    color: #CBAE92;
-    font-size: 27px;
-    position: relative;
-    bottom: 560px;
-    left: 50px;
-}
-
-.about_text5{
-    color: #CBAE92;
-    font-size: 27px;
-    position: relative;
-    bottom: 565px;
-    left: 50px;
-}
-
 .liste{
     text-align: center;
     font-size: 40px;
@@ -206,10 +166,10 @@ body{
 }
 
 .meinung{
-    border: 1px solid #F5E9DA;
-    background-color: #F5E9DA;
-    width: 338px;
-    height: 196px;
+    border: 2px solid #926239;
+    background-color: #FFF8F0;
+    width: 365px;
+    height: 217px;
     border-radius: 10px;
     box-shadow: 6px 6px 4px 0px rgb(182, 182, 182);
 }
@@ -223,7 +183,7 @@ body{
 
 .name_surname1{
     color: #A58B71;
-    font-size: 23px;
+    font-size: 25px;
    
 }
 
@@ -233,35 +193,6 @@ body{
 
 .meinung1{
     color: #CBAE92;
-    font-size: 20px;
-   
-}
-
-.new_name{
-    font-size: 30px;
-    color: #A58B71;
-    text-align: center;
-   
-}
-
-.new_meinung{
-    border: 1px solid #F5E9DA;
-    background-color: #F5E9DA;
-    width: 338px;
-    height: 196px;
-    border-radius: 10px;
-    box-shadow: 6px 6px 4px 0px rgb(182, 182, 182);
-  
-}
-
-.new_name_surnam{
-    color: #A58B71;
-    font-size: 23px;
-    
-}
-
-.tell_about{
-    color: #CBAE92;
-    font-size: 20px;
+    font-size: 21px;
    
 }
