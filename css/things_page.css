@@ -146,6 +146,9 @@ body{
     margin-top: 140px;
 }
 
+main {
+    padding-bottom: 40px;
+}
 .acssesorise{
     text-align: center;
     font-size: 45px;
