@@ -97,68 +97,34 @@ body{
     bottom: 490px;
 }
 
-.stiker1{
-    height: 160px;
+.stiker{
+    height: 150px;
     padding-left: 40px;
     padding-top: 15px;
 }
 
-.cart1{
-    border: 2px solid #926239;
-    border-radius: 10px;
-    width: 264px;
-    height: 261px;
-    position: relative;
-    left: 50px;
-    box-shadow: 8px 8px 4px 0px rgb(182, 182, 182);
-
-}
-
-.cart1_bread{
-    font-size: 25px;
-    color: #CBAE92;
-    text-align: center;
-    padding-top: 5px;
-}
-
-.stiker2{
-    height: 145px;
-    padding-top: 17px;
-    padding-left: 22px;
-}
-
-.cart2{
-    border: 2px solid #926239;
-    border-radius: 10px;
-    width: 264px;
-    height: 261px;
-    box-shadow: 8px 8px 4px 0px rgb(182, 182, 182);
-}
-
-.cart2_sourtige{
-    font-size: 25px;
-    color: #CBAE92;
-    text-align: center;
-    padding-top: 17px;
-}
-
-.stiker3{
-    height: 160px;
-    padding-left: 50px;
+.sourtige{
+    height: 150px;
+    padding-left: 75px;
     padding-top: 15px;
 }
 
-.cart3{
-    border: 2px solid #926239;
+.cart{
+    background-color: #F5E9DA;
+    border: 2px solid #CBAE92;
     border-radius: 10px;
     width: 264px;
     height: 261px;
-    position: relative;
-    right: 50px;
-    box-shadow: 8px 8px 4px 0px rgb(182, 182, 182);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.cart3_acssesorise{
+.cart:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.cart_bread{
     font-size: 25px;
     color: #CBAE92;
     text-align: center;
@@ -201,12 +167,18 @@ body{
 }
 
 .meinung{
-    border: 2px solid #926239;
-    background-color: #FFF8F0;
+    background-color: #F5E9DA;
+    border: 2px solid #CBAE92;
     width: 365px;
     height: 217px;
     border-radius: 10px;
-    box-shadow: 6px 6px 4px 0px rgb(182, 182, 182);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.meinung:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
 }
 
 .meinungs_carts{
@@ -219,15 +191,16 @@ body{
 .name_surname1{
     color: #A58B71;
     font-size: 25px;
-   
+    padding-left: 20px;
 }
 
 .stars1{
-  
+    margin-left: 20px;
+    margin-top: -24px;
 }
 
 .meinung1{
     color: #CBAE92;
-    font-size: 21px;
-   
+    font-size: 19px;
+    margin-left: 20px;
 }

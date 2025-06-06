@@ -46,3 +46,52 @@ document.addEventListener("DOMContentLoaded", () => {
      }
   });
 });
+
+document.addEventListener('DOMContentLoaded', function () {
+    const searchForm = document.getElementById('searchForm');
+    const searchInput = searchForm.querySelector('input[type="search"]');
+
+    // Створюємо кнопку-хрестик
+    const clearButton = document.createElement('span');
+    clearButton.innerHTML = '&times;';
+    clearButton.style.cursor = 'pointer';
+    clearButton.style.fontSize = '28px';
+    clearButton.style.position = 'absolute';
+    clearButton.style.right = '65px';
+    clearButton.style.top = '5px';
+    clearButton.style.color = '#A58B71';
+    clearButton.title = 'Очистити пошук';
+    searchForm.style.position = 'relative';
+    searchForm.appendChild(clearButton);
+
+    const allCards = document.querySelectorAll('.card');
+
+    // Основна функція фільтрації
+    function filterCards(query) {
+        const q = query.trim().toLowerCase();
+        allCards.forEach(card => {
+            const name = card.querySelector('.name').textContent.toLowerCase();
+            if (name.includes(q)) {
+                card.style.display = 'flex';
+            } else {
+                card.style.display = 'none';
+            }
+        });
+    }
+
+    // Live-пошук при наборі
+    searchInput.addEventListener('input', () => {
+        filterCards(searchInput.value);
+    });
+
+    // Форма: блокування перезавантаження
+    searchForm.addEventListener('submit', function (e) {
+        e.preventDefault();
+    });
+
+    // Очистити пошук
+    clearButton.addEventListener('click', function () {
+        searchInput.value = '';
+        filterCards('');
+    });
+});
