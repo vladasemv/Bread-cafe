@@ -1,170 +1,160 @@
-body{
+body {
     font-family: sans-serif;
     background-color: #FFF8F0;
 }
 
-.btn-bye{
-    background-color: #926239;
-    width: 130px;
-    height: 45px;
-    border-radius: 25px;
-    color: #FFFFFF;
-    font-size: 23px;
-    border: 3px solid #6B492B;
-    position: relative;
-    bottom: 45px;
-    padding-top: 7px;
-    padding-right: 30px;
-    left: 20px;
+/* Контейнер для карточок */
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 55px;
 }
 
-.btn-bye img{
-    position: relative;
-    bottom: 25px;
-    left: 50px;
-}
-
-.btn-bye2{
-    background-color: #926239;
-    width: 130px;
-    height: 45px;
-    border-radius: 25px;
-    color: #FFFFFF;
-    font-size: 23px;
-    border: 3px solid #6B492B;
-    position: relative;
-    bottom: 27px;
-    padding-top: 7px;
-    padding-right: 30px;
-    left: 20px;
-}
-
-.btn-bye2 img{
-    position: relative;
-    bottom: 25px;
-    left: 50px;
-}
-
-.card{
+/* Стилі карточок */
+.card {
     background-color: #F5E9DA;
     width: 311px;
     height: 411px;
     border-radius: 20px;
-    margin-top: 55px;
-}
-
-.card-img{
-    width: 180px;
-    padding-top: 25px;
-    padding-left: 50px;
-}
-
-.card-container{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
 }
 
-.bread_name1{
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+/* Зображення товару */
+.card-img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    margin: 25px auto 15px;
+    border-radius: 10px;
+}
+
+/* Назва товару */
+.name {
+    color: #A58B71;
+    font-size: 27px;
+    font-weight: 600;
+    margin: 0 27px 10px;
+    text-align: left;
+}
+
+/* Опис товару */
+.describtion {
+    color: #A58B71;
+    font-size: 17px;
+    margin: 0 25px 15px;
+    line-height: 1.4;
+    flex-grow: 1;
+}
+
+/* Ціна */
+.price {
+    color: #CBAE92;
+    font-size: 23px;
+    font-weight: bold;
+    margin: 0 25px 15px;
+}
+
+.price::after {
+    content: " грн";
+    font-size: 18px;
+    color: #A58B71;
+}
+
+/* Кнопка купити */
+.btn-bye {
+    background-color: #926239;
+    width: 130px;
+    height: 45px;
+    border-radius: 25px;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 500;
+    border: 3px solid #6B492B;
+    margin: 0 auto 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn-bye:hover {
+    background-color: #6B492B;
+    transform: scale(1.05);
+}
+
+.btn-bye img {
+    width: 20px;
+    height: 20px;
+}
+
+/* Заголовки секцій */
+.bread_name1,
+.sourtige_name,
+.acssesorise {
     text-align: center;
     font-size: 45px;
     color: #A58B71;
-    position: relative;
-    top: 20px;
+    margin-top: 60px;
+    margin-bottom: 10px;
+    font-weight: 700;
 }
 
-.bread_name2{
+.bread_name2,
+.sourtige_name2,
+.acssesorise2 {
     text-align: center;
     font-size: 30px;
     color: #A58B71;
+    margin-bottom: 20px;
+    font-style: italic;
 }
 
-.name{
-    color: #A58B71;
-    font-size: 27px;
-    position: relative;
-    left: 27px;
-    bottom: 10px;
+/* Прихований ID */
+.id {
+    display: none;
 }
 
-.name2{
-    color: #A58B71;
-    font-size: 27px;
-    position: relative;
-    left: 27px;
-    top: 10px;
-}
-
-.describtion{
-    color: #A58B71;
-    font-size: 17px;
-    position: relative;
-    left: 25px;
-    bottom: 25px;
-}
-
-.describtion2{
-    color: #A58B71;
-    font-size: 17px;
-    position: relative;
-    left: 25px;
-    bottom: 5px;
-}
-
-.price{
-    color: #CBAE92;
-    font-size: 23px;
-    position: relative;
-    left: 25px;
-    bottom: 40px;
-}
-
-.price2{
-    color: #CBAE92;
-    font-size: 23px;
-    position: relative;
-    left: 25px;
-    bottom: 20px;
-}
-
-.sourtige_name{
-    text-align: center;
-    font-size: 45px;
-    color: #A58B71;
-    position: relative;
-    top: 100px;
-}
-
-.sourtige_name2{
-    text-align: center;
-    font-size: 30px;
-    color: #A58B71;
-    position: relative;
-    top: 80px;
-}
-
-.sourtige{
-    margin-top: 140px;
-}
-
+/* Основний контент */
 main {
     padding-bottom: 40px;
 }
-.acssesorise{
-    text-align: center;
-    font-size: 45px;
-    color: #A58B71;
-    position: relative;
-    top: 100px;
-}
 
-.acssesorise2{
-    text-align: center;
-    font-size: 30px;
-    color: #A58B71;
-    position: relative;
-    top: 80px;
-}
-
-.id{
-    display:none;
+/* Адаптивність для мобільних пристроїв */
+@media (max-width: 768px) {
+    .card-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+    
+    .card {
+        width: 90%;
+        max-width: 311px;
+    }
+    
+    .bread_name1,
+    .sourtige_name,
+    .acssesorise {
+        font-size: 35px;
+    }
+    
+    .bread_name2,
+    .sourtige_name2,
+    .acssesorise2 {
+        font-size: 24px;
+    }
 }
