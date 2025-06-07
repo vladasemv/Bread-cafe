@@ -23,28 +23,37 @@ document.addEventListener("DOMContentLoaded", () => {
 
   let counter = +localStorage.getItem("count") || 0;
 
-  window.addEventListener("click", (event) => {
-    if (event.target.hasAttribute("data-cart")) {
-      counter++;
-      localStorage.setItem("count", counter);
-      cart_counter.innerHTML = counter;
-
-      let card = event.target.closest(".card")
-        
-
+ // У файлі з кнопками "Додати до кошика"
+window.addEventListener("click", (event) => {
+  if (event.target.hasAttribute("data-cart")) {
+    let card = event.target.closest(".card");
+    let productId = card.querySelector('.id').innerText;
+    
+    // Перевіряємо, чи товар вже є в кошику
+    let cart = JSON.parse(localStorage.getItem("cart")) || [];
+    let existingItem = cart.find(item => item.id === productId);
+    
+    if (!existingItem) {
+      // Додаємо новий товар тільки якщо його немає
       let product_info = {
-          title: card.querySelector(".name").innerText,
-          imgSrc: card.querySelector(".card-img").getAttribute("src"),
-          desc: card.querySelector('.describtion').innerText,
-          price: +card.querySelector('.price').innerText,
-          id: card.querySelector('.id').innerText
+        title: card.querySelector(".name").innerText,
+        imgSrc: card.querySelector(".card-img").getAttribute("src"),
+        desc: card.querySelector('.describtion').innerText,
+        price: +card.querySelector('.price').innerText,
+        id: productId
       }
-
-      let cart = JSON.parse(localStorage.getItem("cart")) || [];
       cart.push(product_info);
-      localStorage.setItem("cart", JSON.stringify(cart));   
-     }
-  });
+    } else {
+      // Якщо товар вже є, просто додаємо ще один екземпляр
+      cart.push(existingItem);
+    }
+    
+    counter++;
+    localStorage.setItem("count", counter);
+    localStorage.setItem("cart", JSON.stringify(cart));
+    cart_counter.innerHTML = counter;
+  }
+});
 });
 
 document.addEventListener('DOMContentLoaded', function () {
