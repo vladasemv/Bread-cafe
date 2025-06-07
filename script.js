@@ -61,17 +61,17 @@ document.addEventListener('DOMContentLoaded', function () {
     const searchInput = searchForm.querySelector('input[type="search"]');
 
     // Створюємо кнопку-хрестик
-    const clearButton = document.createElement('span');
-    clearButton.innerHTML = '&times;';
-    clearButton.style.cursor = 'pointer';
-    clearButton.style.fontSize = '28px';
-    clearButton.style.position = 'absolute';
-    clearButton.style.right = '65px';
-    clearButton.style.top = '5px';
-    clearButton.style.color = '#A58B71';
-    clearButton.title = 'Очистити пошук';
-    searchForm.style.position = 'relative';
-    searchForm.appendChild(clearButton);
+    // const clearButton = document.createElement('span');
+    // clearButton.innerHTML = '&times;';
+    // clearButton.style.cursor = 'pointer';
+    // clearButton.style.fontSize = '28px';
+    // clearButton.style.position = 'absolute';
+    // clearButton.style.right = '130px';
+    // clearButton.style.top = '5px';
+    // clearButton.style.color = '#A58B71';
+    // clearButton.title = 'Очистити пошук';
+    // searchForm.style.position = 'relative';
+    // searchForm.appendChild(clearButton);
 
     const allCards = document.querySelectorAll('.card');
 
@@ -98,9 +98,9 @@ document.addEventListener('DOMContentLoaded', function () {
         e.preventDefault();
     });
 
-    // Очистити пошук
-    clearButton.addEventListener('click', function () {
-        searchInput.value = '';
-        filterCards('');
-    });
+    // // Очистити пошук
+    // clearButton.addEventListener('click', function () {
+    //     searchInput.value = '';
+    //     filterCards('');
+    // });
 });
